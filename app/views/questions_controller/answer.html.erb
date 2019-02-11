@@ -1,0 +1,17 @@
+
+<div class="coach">
+
+<h1>Stupid Coaching</h1>
+<div class="dialog">
+  <p><%= "#{params[:question]}"%></p>
+  <p>> you</p>
+</div>
+
+<div class="dialog">
+<p><%= "#{@answer}"%></p>
+<p>> coach</p>
+</div>
+
+<%= link_to "ask a new question", ask_path %>
+
+</div>
